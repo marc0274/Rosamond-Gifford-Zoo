@@ -1,0 +1,770 @@
+
+@font-face {
+    font-family: 'verb_light';
+    src: url('http://common.ckclasses.com/fonts/verb_light/VerbLight-webfont.eot');
+    src: url('http://common.ckclasses.com/fonts/verb_light/VerbLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('http://common.ckclasses.com/fonts/verb_light/VerbLight-webfont.woff') format('woff'),
+         url('http://common.ckclasses.com/fonts/verb_light/VerbLight-webfont.ttf') format('truetype'),
+         url('http://common.ckclasses.com/fonts/verb_light/VerbLight-webfont.svg#verb_lightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+
+	background-color: #ffffff;
+	width: 100%;
+
+	margin: 0px 0px 0px 0px;
+
+
+
+}
+
+
+.toppart{
+	
+	background-color: #A4C639;
+height: 150px;
+width: 100%;
+
+}
+.logo{
+
+	padding: 20px 0px 0px 0px;
+	margin: 0px 0px 0px 40px;
+	position: relative;
+	
+}
+
+.topselect a{
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	top: -100px;
+	left: 450px;
+	font-family: 'verb_light';
+	color: #ffffff;
+	padding: 0px 20px 0px 10px;
+	border-bottom: 2px solid #D6EB01;
+	text-align: center;
+}
+nav li{
+	float: left;
+	margin: -30px 0px 0px 0px;
+
+
+}
+
+nav li a{
+	font-family: 'verb_light';
+	text-decoration: none;
+	font-size: 25px;
+	padding: 0px 40px 0px 20px;
+	
+	color: #000000;
+	
+	display: block;
+
+}
+nav li:hover ul{
+	display: block;
+
+}
+
+nav li ul li a{
+float: none;
+color: #000000;
+
+}
+
+
+nav li ul{
+	display: none;
+	position: absolute;
+
+
+
+
+}
+ul{
+	
+list-style: none;
+
+margin: 0px;
+padding: 0px;
+}
+
+nav li ul li a:hover{
+background-color: #ff0000;
+
+
+}
+
+nav li:hover a{
+	color: #FEC730;
+
+}
+
+nav li ul li{
+	float: none;
+	padding: 40px 0px 0px 20px;
+	font-size: 15px;
+}
+
+nav{
+	margin: 0px 0px 0px 300px;
+
+
+}
+
+.search{ 
+	padding: 7px 14px;
+	background: #ffffff;
+	border: 1px solid #000000;
+	: #ffffff;
+
+}
+
+form{
+	width: 500px;
+
+	margin: -80px 0px 0px 300px ;
+
+
+
+
+}
+.buttonchange{
+	background-color: #fafafa;
+	color: #000000;
+	padding: 6px 15px;
+	left: -8px;
+	position: relative;
+	border: 2px solid #000000;
+
+}
+
+
+
+.buttonchange:hover{
+
+	background-color: #FEC730;
+	color:	#207cca;
+
+}
+
+#topmover{
+	width: 815px;
+	height: 550px;
+	margin: 0px auto;
+
+}
+
+#pics{
+	overflow: hidden;
+	position: relative;
+	width: 800px;
+	height: 500px;
+	
+	left: 0px;
+	z-index: -20;
+
+
+}
+
+#pics ul{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 3200px;
+
+
+}
+
+#pics li{
+
+	width: 800px;
+	height: 500px;
+	float: left;
+
+
+}
+
+#pics li img{
+	
+}
+
+#buttons{
+	padding: 0px 0px 5px 0px;
+	float: right;
+
+
+}
+
+#buttons a{
+	display: block;
+	width: 31px;
+	height: 32px;
+	text-indent: -999em;
+	float: left;
+	outline: 0px;
+
+
+}
+
+
+
+.clear {
+
+	clear: both
+}
+
+
+.association{
+	position: relative;
+	top: 50px;
+	left: 0px;
+
+	padding: 0px 0px 0px 130px; 
+
+
+
+
+}
+
+.link a{
+	list-style: none;
+	position: relative;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: 'verb_light';
+	font-size: 20px;
+	top: -25px;
+		margin: 0px 0px 0px 600px;
+}
+
+.link a:hover{
+		color: #FEC730;
+
+}
+
+.plan a{
+	position: relative;
+	color: #8DC63F;
+	top: 100px;
+	left:450px;
+	font-family: 'verb_light';
+	font-size: 30px;
+	text-decoration: none;
+
+}
+.plan a:hover{
+
+	color: #FEC730;
+
+}
+
+
+.tickets{
+	position:relative;
+	top: 100px;
+	margin: 0px 0px 0px 50px;
+
+	
+
+
+}
+
+.ticket a{
+	position: relative;
+	top: 120px;
+	margin: 0px 0px 0px 100px;
+	font-family: 'verb_light';
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+
+
+}
+
+.ticket a:hover{
+
+	color: #FEC730;
+
+}
+
+
+.buynow{
+	font-family: 'verb_light';
+	position:relative; 
+	top: 120px;
+	margin: 0px 0px 0px -850px;
+	text-align: center;
+
+}
+
+.dine{
+
+	position:relative;
+	top: -200px;
+	margin: 0px 0px 0px 300px;
+
+}
+
+.dining a{
+	position: relative;
+	top: -130px;
+	margin: 0px 0px 0px 350px;
+	font-family: 'verb_light';
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+
+
+}
+.dining a:hover{
+	color: #FEC730;
+
+
+}
+.food{
+	position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	top: -125px;
+	margin: 0px 0px 0px -350px;
+	text-align: center;
+
+
+}
+
+.exhibit{
+	position:relative;
+	top: -540px;
+	margin: 0px 0px 0px 600px;
+
+
+}
+
+.exhibits a{
+	position: relative;
+	top: -470px;
+	margin: 0px 0px 0px 650px;
+	font-family: 'verb_light';
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+
+
+}
+.exhibits a:hover{
+		color: #FEC730;
+
+	}
+
+.stuff{
+
+	position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	top: -455px;
+	margin: 0px 0px 0px 250px;
+	text-align: center;
+
+
+}
+
+.new{
+position:relative;
+	top: -940px;
+	margin: 0px 0px 0px 900px;
+
+
+}
+.arrivals a{
+	position: relative;
+	top: -880px;
+	margin: 0px 0px 0px 920px;
+	font-family: 'verb_light';
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+.arrivals a:hover{
+	color: #FEC730;
+
+}
+
+.what{
+position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	top: -855px;
+	margin: 0px 0px 0px 850px;
+	text-align: center;
+
+
+}
+
+.events a{
+	position: relative;
+	color: #8DC63F;
+	top: -700px;
+	left:500px;
+	font-family: 'verb_light';
+	font-size: 30px;
+	text-decoration: none;
+
+
+
+}
+.events a:hover{
+
+	color: #FEC730;
+
+
+}
+.epics{
+	margin: -650px 0px 0px 50px;
+
+
+}
+.epics img{
+	margin: 0px 10px 0px 20px;
+
+
+}
+.headings2{
+
+	margin: 40px 0px 0px 120px;
+
+}
+.headings2 a{
+
+	position: relative;
+	top: 10px;
+
+	margin: 20px 170px 0px 0px;
+	font-family: 'verb_light';
+	color: #000000;
+	font-size: 25px;
+	text-decoration: none;
+
+}
+.headings2 a:hover{
+
+	color: #FEC730;
+
+}
+
+.first{
+position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	
+	margin: 40px 0px 0px -750px;
+	text-align: center;
+
+
+}
+
+.second{
+	position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	
+	margin: -100px 0px 0px -50px;
+	text-align: center;
+}
+.third{
+	position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	
+	margin: -230px 0px 0px 600px;
+	text-align: center;
+}
+
+.kids a{
+	position: relative;
+	color: #8DC63F;
+	top: 120px;
+	left:500px;
+	font-family: 'verb_light';
+	font-size: 30px;
+	text-decoration: none;
+
+
+}
+
+.kids a:hover{
+
+	color: #FEC730;
+}
+
+
+.kpics{
+	margin: 150px 0px 0px 50px;
+
+
+}
+
+.kpics img{
+
+
+	margin: 0px 40px 0px 0px;
+}
+
+
+
+
+
+
+.second2{
+position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	
+	margin: -170px 0px 0px -50px;
+	text-align: center;
+
+
+}
+.third2{
+	position: relative;
+	font-family: 'verb_light';
+	font-size: 15px;
+	
+	margin: -100px 0px 0px 600px;
+	text-align: center;
+
+
+
+}
+
+.edu a{
+
+position: relative;
+	color: #8DC63F;
+	top: 50px;
+	left:500px;
+	font-family: 'verb_light';
+	font-size: 30px;
+	text-decoration: none;
+
+
+}
+
+.edupics{
+	margin: 80px 0px 0px 50px;
+
+
+
+}
+
+.edupics img{
+
+
+	margin: 0px 40px 0px 0px;
+}
+
+.edu a:hover{
+
+	color: #FEC730;
+}
+
+.ani{
+
+	position: relative;
+	color: #8DC63F;
+	top: 50px;
+	margin: 0px 0px 0px 200px;
+		font-family: 'verb_light';
+	font-size: 50px;
+	text-decoration: none;
+	z-index: -20;
+
+}
+.info{
+	font-family: 'verb_light';
+	text-align: center;
+	margin: 70px 0px 0px -550px;
+
+	z-index: -20;
+
+
+}
+
+.anipic img{
+
+	margin: -300px 0px 0px 550px;
+	z-index: -20;
+
+}
+
+#topmover2 #pics ul{
+
+	position: relative;
+		margin: 80px 0px 0px 100px;
+
+
+}
+
+#topmover3 #pic2 ul{
+
+		position: relative;
+		margin: 100px 0px 0px 100px;
+
+	}
+#topmover4 #pic3 ul{
+
+		
+		margin: 100px 0px 0px 100px;
+
+
+}
+.ani1{
+	position: relative;
+	color: #8DC63F;
+	
+	margin: -420px 0px 0px 770px;
+	font-family: 'verb_light';
+	font-size: 50px;
+	text-decoration: none;
+	z-index: -20;
+
+}
+
+.info1{
+	font-family: 'verb_light';
+	text-align: center;
+	margin:0px 0px 0px 600px;
+
+	z-index: -20;
+
+
+
+}
+
+.ani2{
+	position: relative;
+	color: #8DC63F;
+	
+	margin: -400px 0px 0px 770px;
+	font-family: 'verb_light';
+	font-size: 50px;
+	text-decoration: none;
+	z-index: -20;
+
+
+}
+
+.info2{
+	font-family: 'verb_light';
+	text-align: center;
+	margin: 0px 0px 0px 600px;
+
+	z-index: -20;
+
+
+
+}
+
+.ani3{
+	position: relative;
+	color: #8DC63F;
+	
+	margin: -400px 0px 0px 800px;
+	font-family: 'verb_light';
+	font-size: 50px;
+	text-decoration: none;
+	z-index: -20;
+
+
+
+}
+
+.info3{
+font-family: 'verb_light';
+	text-align: center;
+	margin: 0px 0px 0px 580px;
+
+	z-index: -20;
+
+
+
+}
+
+#pic2{
+	overflow: hidden;
+	position: relative;
+	width: 800px;
+	height: 500px;
+	
+	left: 0px;
+	z-index: -20;
+
+
+}
+
+#pic2 ul{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 3200px;
+
+
+}
+
+#pic2 li{
+
+	width: 800px;
+	height: 500px;
+	float: left;
+
+
+}
+#pic3{
+	overflow: hidden;
+	position: relative;
+	width: 800px;
+	height: 500px;
+	
+	left: 0px;
+	z-index: -20;
+
+
+}
+
+#pic3 ul{
+	position: relative;
+	left: 0px;
+	top: 0px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	width: 3200px;
+
+
+}
+
+#pic3 li{
+
+	width: 800px;
+	height: 500px;
+	float: left;
+
+
+}
+
+
+
+
